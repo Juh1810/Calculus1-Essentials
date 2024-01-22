@@ -1,0 +1,79 @@
+body{
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+    background-color: rgb(18, 17, 17);
+    color: rgb(237, 231, 231);
+    font-family: Times;
+    text-align: center;
+    font-size: 20px;
+}
+
+#head{
+    font-size: 30px;
+    background-color: rgb(18, 17, 17);
+    height: 50px;
+    position: relative;
+    /* left: 33px; */
+    
+
+}
+
+#back{
+    background-color: rgb(18, 17, 17);
+    border-style: none;
+    font-size: 30px;
+    position: relative;
+    right: 710px;
+}
+
+#essentials{
+    position: relative;
+    text-align: center;
+    height: 60px;
+    background-color: rgb(105, 105, 158);
+}
+
+#sum{
+    position: relative;
+    text-align: center;
+    height: 60px;
+    background-color: rgb(59, 59, 114);
+}
+
+#mid{
+    position: relative;
+    text-align: center;
+    height: 60px;
+    background-color: rgb(108, 57, 112);
+}
+
+#final{
+    position: relative;
+    text-align: center;
+    height: 60px;
+    background-color: rgb(80, 42, 83);
+}
+
+.cp{
+    cursor: pointer;
+    color: white;
+    font-size: larger;
+    position: relative;
+    background-color: rgb(211, 185, 185);
+    height: 270px;
+    width: 200px;
+   
+}
+
+.ch2{background: url("ch2.jpg");}
+.ch3{background: url("ch3.jpg");}
+.ch4{background: url("ch4.jpg");}
+.ch5{background: url("ch5.jpg");}
+.ch6{background: url("ch6.jpg");}
+.ch3-2{background: url("ch3-2.jpg");}
+
+/*p{
+    position: relative;
+    right: 550px;
+} */
