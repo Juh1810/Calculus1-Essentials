@@ -1,0 +1,111 @@
+body{
+    padding: 0;
+    margin: 0;
+    border-top: 15px solid rgb(145, 86, 86);
+    /*border-top: 20px solid rgb(100, 4, 4);
+    /*border-color: rgb(61, 60, 40);
+    background-image: url("bkPaper.jpg"); */
+    /* background-color: rgb(186, 180, 180); */
+    background-color: rgb(25, 25, 25);
+    font-family: Times;
+    font-size: 15px;
+}
+
+legend{
+    color: rgb(214, 207, 207);
+    font-size: 26px;
+    font-family:Times;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    background-color: rgb(145, 86, 86);
+    /*background-color: rgb(251, 238, 79); rgb(44, 97, 133) rgb(145, 86, 86)*/
+}
+
+button{
+    font-size: 30px;
+    background-color: rgb(145, 86, 86);
+    position: relative;
+    left: 550px;
+    height: 30px;
+    border-style: none;
+}
+#notesBtn {
+    cursor: pointer;
+    position: relative;
+    top : 10px;
+    left : 60px;
+    height: 240px;
+    width: 173px;
+    background: url("btnS.png");
+}
+
+#essentials {
+    cursor: pointer;
+    position: relative;
+    top : 10px;
+    left : 50px;
+    height: 240px;
+    width: 173px;
+    background: url("btnE.png");
+}
+
+/*section{
+    display: block;
+    background-color: rgb(36, 29, 29);
+} */
+
+.cp{
+    cursor: pointer;
+    position: relative;
+    left : 100px;
+    height: 240px;
+    width: 166px;
+}
+.ch2{background: url("ch2.jpg");}
+.ch3{background: url("ch3.jpg");}
+.ch4{background: url("ch4.jpg");}
+.ch5{background: url("ch5.jpg");}
+.ch6{background: url("ch6.jpg");}
+.ch3-2{background: url("ch3-2.jpg");}
+
+section{
+    background-color: rgb(0, 0, 0);
+}
+
+/*
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculus-1 Essentials</title>
+    <link rel="stylesheet" href = "style.css">
+</head>
+<body>
+    <legend>
+        Calculus 1
+        <button onclick="window.open('file:///C:/Users/hp/OneDrive/Desktop/first%20go/gIndex.html')">↩</button>
+    </legend>
+
+    <section>
+    <button id="essentials" onclick=" window.open('file:///C:/Users/hp/OneDrive/Desktop/first%20go/essentials.html'); return true;"></button>
+    <button id="notesBtn" onclick=" window.open('https://drive.google.com/drive/folders/139BzwwVCEJRuImVlyFpmPPA7M_jJuzRi?usp=drive_link'); return true;" ></button>
+    <br> <br>
+
+    </section>
+
+    <br>
+    
+    <button class="cp ch2" onclick=" window.open('file:///C:/Users/hp/OneDrive/Desktop/first%20go/ch2.html'); return true;" ></button>
+    <button class="cp ch3" onclick=" window.open('file:///C:/Users/hp/OneDrive/Desktop/first%20go/ch3.html'); return true;" ></button>
+    <button class="cp ch4" onclick=" window.open('file:///C:/Users/hp/OneDrive/Desktop/first%20go/ch4.html'); return true;" ></button>
+    <button class="cp ch5" onclick=" window.open('file:///C:/Users/hp/OneDrive/Desktop/first%20go/ch5.html'); return true;" ></button>
+    <button class="cp ch6" onclick=" window.open('file:///C:/Users/hp/OneDrive/Desktop/first%20go/ch6.html'); return true;" ></button>
+    <button class="cp ch3-2" onclick=" window.open('file:///C:/Users/hp/OneDrive/Desktop/first%20go/ch3-2.html'); return true;" ></button>
+
+    <script src="code.js"></script>
+    
+</body>
+</html>
+*/
